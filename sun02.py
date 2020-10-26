@@ -10,14 +10,13 @@ thisdict = {
     "address": "Amman"
     }
 
-print(thisdict)
 
 thisdict["name"] = name
 thisdict["age"] = age
 thisdict["phone"] = phone
 thisdict["address"] = address
 
-print(thisdict)
+
 
 def age_valdation(age):
     if int(age) >= 18:
